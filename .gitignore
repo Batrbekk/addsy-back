@@ -1,0 +1,29 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Test / Cache
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Uploads (runtime)
+uploads/
+
+# Docker volumes
+pgdata/
